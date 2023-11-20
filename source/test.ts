@@ -3,7 +3,6 @@ import kava from 'kava'
 
 import figures, {
 	isUnicodeSupported,
-	replaceSymbols,
 	mainSymbols,
 	fallbackSymbols,
 } from './index.js'
@@ -24,16 +23,6 @@ kava.suite('@bevry/figures', function (suite, test) {
 
 	test('fallbackSymbols', function () {
 		equal(fallbackSymbols.tick, '√')
-	})
-
-	test('replaceSymbols() keep non-figures as is', function () {
-		equal(replaceSymbols('foo'), 'foo')
-	})
-
-	test('replaceSymbols() replace figures', function () {
-		equal(replaceSymbols('✔ ✔ ✔'), result('✔ ✔ ✔', '√ √ √'))
-		equal(replaceSymbols('✔ ✘\n★ ◼'), result('✔ ✘\n★ ◼', '√ ×\n✶ ■'))
-		equal(replaceSymbols('✔ ✘ ★ ◼'), result('✔ ✘ ★ ◼', '√ × ✶ ■'))
 	})
 
 	test('figures are non-empty strings', function () {

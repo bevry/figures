@@ -1,5 +1,13 @@
 # History
 
+## v7.0.0 2023 November 20
+
+-   Use [`unicode-symbols` package](https://github.com/bevry/unicode-symbols)
+-   Use [`non-unicode-symbols` package](https://github.com/bevry/non-unicode-symbols)
+-   Drop `replaceSymbols` export
+-   Documentation for exports
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v6.1.0 2023 November 1
 
 -   Forked to implement Bevry's best practices and maintain widespread compatibility.
