@@ -1,5 +1,9 @@
 # History
 
+## v7.1.0 2023 November 21
+
+-   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+
 ## v7.0.0 2023 November 20
 
 -   Use [`unicode-symbols` package](https://github.com/bevry/unicode-symbols)
