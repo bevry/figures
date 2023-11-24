@@ -50,6 +50,12 @@ Forked from [sindresorhus/figures](https://github.com/sindresorhus/figures)
 <li>Require: <code>const pkg = require('@bevry/figures').default</code></li>
 </ul>
 
+<a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
+
+``` typescript
+import pkg from 'https://unpkg.com/@bevry/figures@^7.2.0/edition-deno/index.ts'
+```
+
 <h3><a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
 
 <p>This package is published with the following editions:</p>
