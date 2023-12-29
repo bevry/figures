@@ -50,7 +50,7 @@ Forked from [sindresorhus/figures](https://github.com/sindresorhus/figures)
 ### [Deno](https://deno.land "Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js")
 
 ``` typescript
-import pkg from 'https://unpkg.com/@bevry/figures@^7.5.0/edition-deno/index.ts'
+import pkg from 'https://unpkg.com/@bevry/figures@^7.6.0/edition-deno/index.ts'
 ```
 ### [Editions](https://editions.bevry.me "Editions are the best way to produce and consume packages you care about.")
 
